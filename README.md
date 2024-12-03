@@ -110,10 +110,9 @@ WebSocket data format:
 
 ## Submission
 
-1. Create a private repository
-2. Implement your solution
-3. Add clear documentation
-4. Share the repository with the reviewer
+1. Implement your solution
+2. Add clear documentation on how to run the code
+4. Either share a zip file (with node_modules removed) or the repository link
 
 ## Development Tips
 
