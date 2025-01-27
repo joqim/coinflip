@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="p-4">
       <h1 className="text-2xl font-bold mb-4">Crypto Rates Challenge</h1>
-      
+
       <div className="space-y-4">
         <section>
           <h2 className="text-xl font-semibold mb-2">Challenge Requirements:</h2>
@@ -27,8 +27,15 @@ export default function Home() {
 
         <div className="mt-6">
           <p className="text-gray-600">
-            Start by implementing the assets list page at /rates
+            Start by implementing the assets list page at /assets
           </p>
+        </div>
+
+        {/* Button to navigate to /assets */}
+        <div className="mt-6">
+          <a href="/assets" className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-all duration-200">
+            Go to Assets List
+          </a>
         </div>
       </div>
     </main>
